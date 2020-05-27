@@ -33,11 +33,9 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>
-                Aïd Moubarak ! عيد مبارك! Bonne fête de l’aïd ❤️❤️❤️!
-              </Text>
+              <Text style={styles.sectionTitle}>❤️❤️❤️</Text>
             </View>
-            <Image style={styles.img} source={require('./a.jpg')} />
+            <Image style={styles.img} source={require('./a.PNG')} />
           </View>
         </ScrollView>
       </SafeAreaView>
